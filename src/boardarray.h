@@ -6,6 +6,7 @@ using namespace std;
 class BoardArray : public Board {
     Entry* array;
     int index;
+    
 
     public:
         BoardArray() {
